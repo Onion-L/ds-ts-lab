@@ -4,6 +4,11 @@ export interface Friend {
     age: number
 }
 
+export interface EmailContact {
+    name: string;
+    email: string
+}
+
 export interface Colleague {
     name: string;
     department: string;
@@ -16,4 +21,9 @@ export interface Colleague {
 export interface ColleagueHistory {
   current: Colleague[],
   former: Colleague[]
+}
+
+export interface EmailContact {
+  name: string;
+  email: string
 }
