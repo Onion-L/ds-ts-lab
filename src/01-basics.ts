@@ -13,8 +13,14 @@ const friend2 : Friend = {
   age: 31,
   interests: ['Music', 'Sport']
 };
+
+const firend3 : Friend = {
+  name:'Li Dapao',
+  phone:'087-123111',
+  age:23,
+}
   
-  export const friends = [friend1, friend2];
+  export const friends = [friend1, friend2, firend3];
 //   console.log(friends[1]);
   
   //   -------------------
@@ -46,8 +52,17 @@ const friend2 : Friend = {
     },
   };
 
+  const colleague4 : Colleague = {
+    name:'Li Dapao',
+    department:'Engineering',
+    contact: {
+      email:'lidapao@company.com',
+      extension:129
+    }
+  }
+
   export const colleagues = {
-    current: [colleague1, colleague2, colleague3],
+    current: [colleague1, colleague2, colleague3, colleague4],
     former: [],
   };
   
